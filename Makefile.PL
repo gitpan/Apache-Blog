@@ -7,5 +7,7 @@ WriteMakefile(
     'AUTHOR' => 'Daniel Gardner <daniel@danielgardner.org>',
     'PREREQ_PM' => { 'Date::Manip' => 0,
                      'HTML::Template' => 0,
+		     'Apache::Request' => 0,
+		     'Apache::Constants' => 0,
 		   },
 );
